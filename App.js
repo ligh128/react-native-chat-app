@@ -15,9 +15,9 @@ const Chat = () => {
 
   //ScrollViewRef using for scroll to the end of the chat in the scrollview component
   const scrollViewRef = useRef(null);
-  useEffect(() => {
-    scrollViewRef.current.scrollToEnd({ animated: true });
-  }, [messages]);
+  // useEffect(() => {
+  //   scrollViewRef.current.scrollToEnd({ animated: true });
+  // }, [messages]);
 
   // State to store messages and input text
   const [messages, setMessages] = useState([]);
